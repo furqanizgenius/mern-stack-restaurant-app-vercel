@@ -11,7 +11,7 @@ dotenv.config()
 app.use(cors({
     // origin: [process.env.FRONTEND_URL],
     origin: "https://furqanizgenius-mern-stack-restauran.vercel.app",
-    methods: ["POST", "GET"],
+    methods: ["POST"],
     credentials: true,
 }))
 
